@@ -27,7 +27,7 @@ In this challenge I build a web application that scrapes various websites for da
 ### NASA Mars news 
 * Scrapes the NASA Mars News Site and collects the latest News Title and Paragraph Text. 
 
-![](images/scrape.png)
+![](Screenshots/scrape.png)
 
 ### JPL Mars Space Images - Featured Image
 * Uses splinter to navigate the space image site and finds the image url for the current Featured Mars Image.
