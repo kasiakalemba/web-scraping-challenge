@@ -33,11 +33,8 @@ This a web application that scrapes various websites for data related to the Mis
 
 ![](Screenshots/scrape.png)
 
-### JPL Mars Space Images - Featured Image
+#### JPL Mars Space Images - Featured Image
 * Uses splinter to navigate the space image site and finds the image url for the current Featured Mars Image.
-
-#### Mars Weather
-* Visits the Mars Weather twitter account here and scrapes the latest Mars weather tweet from the page.
 
 #### Mars Facts
 * Visits the Mars Facts webpage and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
@@ -53,7 +50,6 @@ Uses MongoDB with Flask templating to create a new HTML page that displays all o
 ## Sources
 * [NASA Mars News Site](https://mars.nasa.gov/news/)
 * [JPL Featured Space Image](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
-* [Mars Weather twitter account](https://twitter.com/marswxreport?lang=en)
 * [Mars Facts webpage](https://space-facts.com/mars/)
 * [USGS Astrogeology site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
 
