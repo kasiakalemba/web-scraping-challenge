@@ -65,22 +65,22 @@ def scrape():
     mars_dict['featured_img'] = featured_image_url_2
 
 
-# # Mars Weather
-    # Visit Mars Twitter
-    url_twitter = "https://twitter.com/marswxreport?lang=en"
-    result = requests.get(url_twitter)
-    time.sleep(5)
+# # # Mars Weather
+#     # Visit Mars Twitter
+#     url_twitter = "https://twitter.com/marswxreport?lang=en"
+#     result = requests.get(url_twitter)
+#     time.sleep(5)
 
     
-    html = result.text
-    soup = BeautifulSoup(html, 'html.parser')
+#     html = result.text
+#     soup = BeautifulSoup(html, 'html.parser')
     
 
-    # Find First Tweet
-    mars_weather = soup.find(class_='tweet-text').get_text()
+#     # Find First Tweet
+#     mars_weather = soup.find(class_='tweet-text').get_text()
 
-    # Mars picture dictionary
-    mars_dict['mars_weather'] = mars_weather
+#     # Mars picture dictionary
+#     mars_dict['mars_weather'] = mars_weather
 
 
 # # Mars Facts
