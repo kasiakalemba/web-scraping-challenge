@@ -1,6 +1,6 @@
 # Mission to Mars - Web Scraping 
 
-## Summary: 
+## Summary 
 This a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. It gathers the lastest news from Mars each time you run the app. 
 
 ![](Screenshots/Webpage.png)
