@@ -3,6 +3,8 @@
 ## Summary: 
 This a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. It gathers the lastest news from Mars each time you run the app. 
 
+![](Screenshots/Webpage.png)
+
 ## Table of contents
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -23,7 +25,6 @@ This a web application that scrapes various websites for data related to the Mis
 * Open local host in your browser
 * To get the latest news, "Get Data!" on the web page. 
 
-![](Screenshots/Webpage.png)
 
 ## Development
 ### Scraping Sources
