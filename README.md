@@ -45,7 +45,7 @@ This a web application that scrapes various websites for data related to the Mis
 * Appends the dictionary with the image url string and the hemisphere title to a list. 
 
 ### MongoDB and Flask Application
-Uses MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
+Uses MongoDB with Flask to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
 ## Sources
 * [NASA Mars News Site](https://mars.nasa.gov/news/)
