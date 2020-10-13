@@ -17,7 +17,8 @@ This a web application that scrapes various websites for data related to the Mis
 * HTML, CSS, Bootstrap 
 
 ## Setup:
-* Get all the files from the repository 
+* Clone the repository
+* In a python 3 environment, pip install requirements.txt
 * Run Mongo in your terminal.
 * In a new terminal window, open the directory folder
 * Run the command "python scrape_mars.py" to get all the scraping get set up into Mongo
